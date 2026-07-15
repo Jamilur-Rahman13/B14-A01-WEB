@@ -96,7 +96,6 @@ nav button{
 
 
 
-
    /* Section Title */
 
 
@@ -120,9 +119,9 @@ nav button{
     margin: 0 auto;
 }
 
-/* =========================
-   Speaker Section
-========================= */
+
+   /* Speaker Section */
+
 
 .speakers-grid {
     display: grid;
@@ -151,6 +150,159 @@ nav button{
     line-height: 1.6;
 }
 
+
+/* Pricing Section */
+
+.pricing{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 50px 60px;
+    background-color: #d1d5db;
+}
+
+.section-title{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.section-title h2{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom:16px;
+    color: #0D1B2A;
+}
+
+.section-title p{
+    color: #0D1B2A;
+    font-size: 16px;
+}
+
+/* Cards */
+
+.pricing-grid{
+
+    display: flex;
+    gap: 30px;
+    background-color: aqua;
+}
+
+.pricing-card{
+    display: flex;
+    flex-direction: column;
+
+    flex: 1;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 32px;
+}
+
+.plan{
+
+    font-size: 13px;
+    font-weight: 600;
+    color: #888888;
+    margin-bottom: 14px;
+    background-color: orangered;
+}
+
+.pricing-card h3{
+
+    font-size: 44px;
+    font-weight: 800;
+    color: #0D1B2A;
+    margin-bottom: 8px;
+}
+
+.pricing-card .special{
+    color: white;
+}
+
+.price-text{
+
+    color: #888888;
+    margin-bottom: 40px;
+}
+
+.pricing-card ul{
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 8px;
+    margin-bottom: 20px;
+
+}
+
+.pricing-card button{
+
+    margin-top: auto;
+    padding: 16px;
+
+    border-radius: 10px;
+    border: 2px solid #2563eb;
+    background: white;
+    color: #2563eb;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* Featured Card */
+
+.featured{
+
+    background: #111827;
+    color: white;
+}
+
+.featured .plan,
+.featured .price-text{
+
+    color: #d1d5db;
+}
+
+.featured button{
+
+    background: #2563eb;
+    color: white;
+    border: none;
+}
+
+.footer{
+
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 50px;
+    background: #0D1B2A
+    
+}
+
+.footer p{
+
+    color: white;
+    opacity: 40%;
+}
+
+.footer-right{
+
+    display: flex;
+    gap: 25px;
+}
+
+.footer-right a{
+
+    text-decoration: none;
+    color: white;
+    opacity: 40%;
+}
+
+.footer-right a:hover{
+
+    color: black;
+}
 
 
 
